@@ -1,0 +1,99 @@
+body{
+    font-family: 'Open Sans','DFKai-SB', Arial,'Noto Sans TC',  sans-serif !important ; 
+    background:#4F4F4F;
+}
+
+.AsaBack1{
+    background: url("http://220.128.133.15/s1090208/Bootstrap-Resume/images/resumebk1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.asawallback1{
+    background: url("http://220.128.133.15/s1090208/Resume/other/phtoto_reference/PHP-Resume/wall5.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.asawallback2{
+    background: url("http://220.128.133.15/s1090208/Resume/other/phtoto_reference/PHP-Resume/wall4-2.jpg") !important;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:1400px 780px !important;
+    /* background-size: cover; */
+}
+
+.asawallback3{
+    background: url("http://220.128.133.15/s1090208/Resume/other/phtoto_reference/PHP-Resume/wall3.jpg") !important;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:1400px 780px !important;
+    /* background-size: cover; */
+}
+
+.asalogin{
+    font-size:25px !important; 
+    font-weight:bold !important;
+    color:white !important;
+}
+
+
+
+.outerbox{
+    background:	#F0F0F0;
+}
+
+.smallbox{
+    width: 400px;
+    height: 350px;
+    border:1px solid rgb(77, 74, 74);
+    border-radius: 20px;
+    background: linear-gradient(52deg, rgba(224, 163, 157, 1)35%, rgba(255, 243, 60, 1)96%);
+    background: -moz-linear-gradient(52deg, rgba(224, 163, 157, 1)35%, rgba(255, 243, 60, 1)96%);
+    background: -webkit-linear-gradient(52deg, rgba(224, 163, 157, 1)35%, rgba(255, 243, 60, 1)96%);
+    background: -o-linear-gradient(52deg, rgba(224, 163, 157, 1)35%, rgba(255, 243, 60, 1)96%);
+}
+
+
+.asatitle{
+    margin-left: auto;
+    margin-right:auto;
+    text-align : center;
+    color:black;
+}
+
+.asafooter{
+    margin-left: auto;
+    margin-right:auto;
+    text-align : center;
+    color:white;
+}
+
+
+
+
+
+
+/* ----------------------------- */
+
+.overlay{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000080;
+    display: none;
+}
+.jumpBox{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 300px;
+    background-color: #fff;
+}
